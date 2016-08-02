@@ -42,6 +42,24 @@ public class PublicUtil {
 		return  result ;
 	}
 	
+//	跟新表数据（表名，sql）
+//	public static ResultSet update(String tab,String  sql){
+//		StringBuffer updatesql=new StringBuffer();
+//		updatesql.append("update table "+tab+" set "+sql+"");
+//		
+//		ResultSet result=null;
+//		try {
+//			getConnection();
+//			PreparedStatement ps=conn.prepareStatement(updatesql.toString());
+//			result= ps.executeQuery();
+//		} catch (SQLException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		return  result ;
+//
+//	}
+	
 	/**
      * double 相加
      * @param d1
